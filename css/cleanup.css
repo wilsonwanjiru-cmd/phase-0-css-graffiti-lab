@@ -1,1 +1,33 @@
 /* write your override styles here */
+/* Additional Selectors */
+#tag-2 {
+    color: red;
+  }
+  
+  .tag-1::after {
+    content: "Extra content";
+  }
+  
+  /* Dummy Styles */
+  .dummy-1 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+  }
+  
+  .dummy-2 {
+    font-size: 16px;
+    background: none;
+  }
+  
+  /* Comment 1 */
+  .tag-1 {
+    /* Styles */
+  }
+  
+  /* Comment 2 */
+  #tag-2 {
+    /* Styles */
+  }
+  
+  
